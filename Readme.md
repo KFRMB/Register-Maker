@@ -18,7 +18,7 @@ Versie 1.0: Code samengevoegd met Alexander Koselka zijn code, 4 forms worden ge
 
 Het doel van de library is het interactiever maken van het registratie proces, omdat tegenwoordig
 mensen niet snel registratie formulieren vertrouwen en niet snel hun informatie willen achterlaten
-heb ik een library gemaakt die interactie kan hebben met de gebruiker. Het is nog ver van af maar 
+heb ik een library gemaakt die interactie kan hebben met de gebruiker. Het is nog verre van af maar 
 het begin staat er al.
 
 # HOW TO USE
