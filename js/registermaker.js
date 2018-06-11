@@ -7,12 +7,9 @@ var LIBRARY = (function(){
     var x = 0; // Dit is de variabelle die elke vraag in het form zet
     var i = 0; // Dit is de variabelle die elke radio button maakt 
     
+    
     my.generateForm = function(vragen, buttonname){
-
         generateNEWForm(vragen, 0);
-        
-    // hier verander ik de gehele output div
-    $("#people").html(output);
 
     }
     
@@ -41,15 +38,14 @@ var LIBRARY = (function(){
 
             // sluit de Div af met </div>
             output += '</div>';
-   
+
     // hier verander ik de gehele output div
     $("#people").html(output);
-             
+        
     }
 
 //    HIERO
     my.nextPage = function(vraagId){
-        
         // lees het antwoord van vraagId uit
         var vraagEl = document.getElementById('vraag' + vraagId);
         
@@ -60,6 +56,8 @@ var LIBRARY = (function(){
             if (radios[q].checked){
                 
                 var volgendevraag = (vragen[vraagId].vervolgvraag[q]);
+                
+                vraagId = volgendevraag;
             }
         }
         
