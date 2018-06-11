@@ -50,6 +50,12 @@ Om er voor te zorgen dat wanneer je op de registreer knop drukt het formulier wo
 
 Je kan natuurlijk ook je eigen button maken maar vergeet niet om het onclick event toe te voegen met hierin de referentie naar het uit te voeren stuk code van de library én de button dezelfde ID naam te geven. Je hoeft verder niets aan de parameters aan te passen.
 
+Voor de div waarin je je form wil laten weergeven gebruik je de volgende naam:
+
+	<div id="people">
+	
+In people wordt het vragen formulier gezet en weergegeven.
+
 ## Het aanpassen van het JSON bestand
 bij het aanpassen van het JSON bestand moeten de namen blijven staan, alleen de waardes van de namen kunnen aangepast worden. Wil je iets toevoegen? lees dan goed de structuur hier onder, het JSON bestand is gemaakt op de manier waarop het uitgelezen wordt als een array, hou er rekening mee dat als je je array afsluit de laatste vraag geen , bevat na de blokhaken []
         
