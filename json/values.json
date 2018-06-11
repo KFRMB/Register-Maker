@@ -1,0 +1,36 @@
+//hier staan alle vragen in een array
+// BE AWARE !!! aray plaats 1 is array[0] !!!
+var vragen = [
+ {
+   id: "0", //geef je vraag een ID, dit helpt met het bepalen van de volgorde
+   vraag: "hoe oud ben je?", //je vraag plaats je hier
+   antwoordenmogelijk: ["20-30","30-40"], //je antwoordmogelijkheid plaats je hier, zijn er meer mogelijk? maak er een array van en vul deze
+   vervolgvraag: ["2", "2"], //je vervolgvraag staat hier, het cijfer moet overeenkomen met het ID van de volgende vraag
+
+ },
+ {
+   id: "1",
+   vraag: "Welke provincie woon je?",
+   antwoordenmogelijk: ["NH", "ZH", "ZL"],
+   vervolgvraag: ["2", "3", "1"],
+
+ },
+ {
+   id: "2",
+   vraag: "Het werkt",
+   antwoordenmogelijk: ["het", "werkt", "al"],
+   vervolgvraag: ["1", "2", "3"],
+
+ },
+ {
+   id: "3",
+   vraag: "Het werkt helemaal",
+   antwoordenmogelijk: ["het", "werkt", "helemaal"],
+   vervolgvraag: [],
+
+ }
+]
+
+
+
+
