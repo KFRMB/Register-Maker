@@ -1,9 +1,9 @@
 
-					RegisterMaker Library - Gemaakt door: Kevin Frambach
-						Fontys Hogeschool - FHICT Media Design
-							laatste update: 09-06-2018
-								versie: 1.3
-				Kleine demo: http://www.kevinframbach.nl/FINALDEV/RegisterMaker/
+RegisterMaker Library - Gemaakt door: Kevin Frambach
+Fontys Hogeschool - FHICT Media Design
+laatste update: 09-06-2018
+versie: 1.3
+Kleine demo: http://www.kevinframbach.nl/FINALDEV/RegisterMaker/
 
 # UPDATE LOG
 
