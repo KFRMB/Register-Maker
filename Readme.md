@@ -78,9 +78,11 @@ Bij het aanpassen van de stijl van de forms zit geen grens, het enige waar je op
 # FAQ
 
 Q:	Ik heb het JSON bestand aangepast maar krijg de foutmelding dat ik de vragen niet kan uitlezen.
+
 A:		Je moet je laatste JSON vragen set afsluiten zonder komma.  
 
 Q:	Ik heb het CSS bestand aangepast maar er komt nu geen form?
+
 A:		Zet je display waardes uit in je CSS bestand.
 
 
