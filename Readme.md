@@ -23,7 +23,7 @@ het begin staat er al.
 
 # HOW TO USE
 
-RegisterMaker.js werkt en hier hoeft NIETS in aangepast te worden. Alleen het CSS, JSON en je eigen HTML bestand moeten aangepast worden naar eigen gebruik. 
+RegisterMaker.js werkt en hier hoeft NIETS in aangepast te worden. Alleen het CSS, JSON en je eigen HTML bestand moeten aangepast worden naar eigen wens. 
 
 ## Het toevoegen van jQuery
 
