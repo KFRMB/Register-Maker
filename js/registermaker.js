@@ -1,7 +1,5 @@
 // wil je nieuwe vragen maken? maak deze dan in het json bestand.
 
-console.log("ik zie javascript");
-
 var LIBRARY = (function(){
     var my = {};
 
@@ -15,8 +13,7 @@ var LIBRARY = (function(){
         
     // hier verander ik de gehele output div
     $("#people").html(output);
-             
-    console.log("het form is gemaakt");
+
     }
     
 //    pspsps
@@ -28,7 +25,6 @@ var LIBRARY = (function(){
         //maak juiste aantal forms aan   
         
             output += '<div class="vraag" style="display: inline-block;" id="vraag' + v + '" ;>';
-                    console.log(vragen[v].id);
             
             //vul form met vraag  
             output += '<h1>'+vragen[v].vraag+'</h1>';    
@@ -45,22 +41,15 @@ var LIBRARY = (function(){
 
             // sluit de Div af met </div>
             output += '</div>';
-
-
-        
-        
-
-        
-        
+   
     // hier verander ik de gehele output div
     $("#people").html(output);
              
-    console.log("het form is gemaakt");
     }
 
 //    HIERO
     my.nextPage = function(vraagId){
-        alert(vraagId);
+        
         // lees het antwoord van vraagId uit
         var vraagEl = document.getElementById('vraag' + vraagId);
         
@@ -70,33 +59,14 @@ var LIBRARY = (function(){
             
             if (radios[q].checked){
                 
-                alert(radios[q].value);
-                
-                alert(vragen[vraagId].id);
-                
-                alert(vragen[vraagId].vervolgvraag[q]);
-                
-                console.log(vragen[vraagId].vervolgvraag[q])
-                
                 var volgendevraag = (vragen[vraagId].vervolgvraag[q]);
-                
-                console.log(volgendevraag);
-                console.log(vraagId);
-                vraagId = volgendevraag;
-                console.log(vraagId);
             }
         }
         
         $('.vraag').hide();
-
-        
-        console.log($('#vraag' + vraagId + ' '));
-        
-        console.log("huidige vraag id = " + vraagId + "");
         
         $('#vraag' + vraagId + ' ').show();
 
-        console.log(v);
         generateNEWForm(vragen, vraagId);
         }
         
